@@ -56,6 +56,7 @@
             $('.loader_info').html('Loading ' + (parseInt(percentT)) + '%');
             $('.loader_progress')[0].style.width = percentT + '%';
             if (percentage == 1) {
+                generateImage('qrcodefirst','picfirst');
                 $('.loader').remove();
                 $('.recode').show();
             }

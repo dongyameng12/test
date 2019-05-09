@@ -13,7 +13,6 @@
 // ios点击事件不触发
 $(function() {  
     FastClick.attach(document.body); 
-    generateImage('qrcodefirst','picfirst');
 })
 $(document).ready(function () {
     // 用于生成二维码
